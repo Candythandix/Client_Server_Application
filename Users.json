@@ -1,0 +1,148 @@
+{
+    "Users": [
+        {
+            "Username": "username",
+            "Password": "password",
+            "DateOfCreation": "10/02/2026",
+            "NumberOfContacts": 0,
+            "lastUpdate": "2026-03-04 16:05:32",
+            "ContactList": [
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                },
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                },
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                }
+            ]
+        },
+        {
+            "Username": "username",
+            "Password": "password",
+            "DateOfCreation": "10/02/2026",
+            "NumberOfContacts": 0,
+            "lastUpdate": "2026-03-04 16:05:32",
+            "ContactList": [
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                },
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                },
+                {
+                    "Username": "username",
+                    "SavedName": "name"
+                }
+            ]
+        },
+        {
+            "Username": "Alice",
+            "Password": "password",
+            "DateOfCreation": "10/02/2026",
+            "NumberOfContacts": 1,
+            "lastUpdate": "2026-03-05 19:37:11",
+            "ContactList": [
+                {
+                    "Username": "Bob",
+                    "SavedName": "Bob"
+                }
+            ]
+        },
+        {
+            "Username": "Bob",
+            "Password": "password",
+            "DateOfCreation": "10/02/2026",
+            "NumberOfContacts": 1,
+            "lastUpdate": "2026-03-05 19:37:10",
+            "ContactList": [
+                {
+                    "Username": "Alice",
+                    "SavedName": "Alice"
+                }
+            ]
+        },
+        {
+            "Username": "candice_more",
+            "Password": "lala",
+            "DateOfCreation": "2026-03-05 19:06:53",
+            "lastUpdate": "2026-03-05 19:21:07",
+            "NumberOfContacts": 0,
+            "ContactList": []
+        },
+        {
+            "Username": "1",
+            "Password": "coco",
+            "DateOfCreation": "2026-03-05 19:12:03",
+            "lastUpdate": "2026-03-05 19:12:11",
+            "NumberOfContacts": 0,
+            "ContactList": []
+        },
+        {
+            "Username": "Cocopops",
+            "Password": "0000",
+            "DateOfCreation": "2026-03-05 19:23:20",
+            "lastUpdate": "2026-03-05 19:23:30",
+            "NumberOfContacts": 0,
+            "ContactList": []
+        }
+    ],
+    "Groups": [
+        {
+            "group_name": "Socket_Assignment01",
+            "members": [
+                "Alice",
+                "Bob"
+            ],
+            "group_ID": "1"
+        },
+        {
+            "group_name": "1",
+            "members": [
+                "Alice",
+                "username",
+                "username",
+                "naomi"
+            ],
+            "group_ID": "2"
+        }
+    ],
+    "Messages": [
+        {
+            "sender_name": "Alice",
+            "destination_chat_or_groupchat": "Socket_Assignment01",
+            "message_type": "text",
+            "is_group": true,
+            "chunk_num": "1/12",
+            "time_sent": "2026-03-04 16:05:32",
+            "message_ID": 1,
+            "body": "Meet you at 6pm."
+        },
+        {
+            "sender_name": "Bob",
+            "destination_chat_or_groupchat": "Socket_Assignment01",
+            "message_type": "text",
+            "is_group": true,
+            "chunk_num": "1/12",
+            "time_sent": "2026-03-04 20:05:32",
+            "message_ID": 2,
+            "body": "Sure"
+        },
+        {
+            "sender_name": "1",
+            "destination_chat_or_groupchat": " good luck with your project",
+            "message_type": "Hello gurl",
+            "is_group": " Hello gurl good luck with your project ",
+            "chunk_num": "Alice",
+            "time_sent": "512",
+            "message_ID": "3",
+            "body": "2026-03-05 19:15:06"
+        }
+    ]
+}
